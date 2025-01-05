@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa'; // Import the WhatsApp icon
 import HeaderSection from './components/HeaderSection';
-import Internship from './components/internship';
+import Internship from './components/Internship';
 import Hobbies from './components/Hobbies';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
