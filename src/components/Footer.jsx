@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
           {/* Logo and Description */}
           <div className="mb-6 md:mb-0 md:w-1/3">
-            <h2 className="text-2xl font-bold mb-3">DINESH BHATTA</h2>
+            <h2 className="text-2xl font-bold mb-3">BHAWANA BADUA</h2>
             <p className="text-gray-400">
               passionate about work!
             </p>
@@ -97,7 +97,7 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="flex justify-center md:justify-between items-center mt-10">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} DINESH BHATTA. All rights reserved.
+            &copy; {new Date().getFullYear()} BHAWANA BADUA. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="https://www.facebook.com/profile.php?id=61557563996202" className="text-gray-400 hover:text-white">

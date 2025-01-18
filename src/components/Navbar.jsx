@@ -17,13 +17,13 @@ const Navbar = () => {
     <img
         className='rounded-full w-10 md:w-12 border-2 border-blue-600'
         src={MyLogo}
-        alt="DINESH BHATTA logo"
-        aria-label="DINESH BHATTA logo"
+        alt="BHAWANA BADUA logo"
+        aria-label="BHAWANA BADUA logo"
     />
     <span className='font-poppins text-lg md:text-xl font-semibold text-green-300'>
                 <Typewriter
                     options={{
-                        strings: ['DINESH BHATTA'],
+                        strings: ['BHAWANA BADUA'],
                         autoStart: true,
                         loop: true,
                     }}
