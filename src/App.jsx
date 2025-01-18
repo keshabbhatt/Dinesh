@@ -1,8 +1,8 @@
 import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa'; // Import the WhatsApp icon
 import HeaderSection from './components/HeaderSection';
-import Internship from './components/Internship';
-import Hobbies from './components/Hobbies';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
@@ -11,8 +11,8 @@ const App = () => {
   return (
     <div>
       <HeaderSection />
-      <Internship /> 
-      <Hobbies />
+      <Experience /> 
+      <Skills />
       <Testimonials />
       <Contact />
       <Footer />

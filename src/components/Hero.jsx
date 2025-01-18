@@ -5,7 +5,7 @@ import { TiSocialFacebookCircular } from "react-icons/ti";
 import { SlSocialInstagram } from "react-icons/sl";
 import { FaTwitter } from "react-icons/fa";
 import Typewriter from 'typewriter-effect';
-import { FaMicrosoft, FaDigitalOcean } from 'react-icons/fa';
+import { FaBroom, FaClock, FaHandsHelping, FaUserFriends, FaToolbox } from "react-icons/fa";
 
 
 
@@ -20,7 +20,7 @@ const Hero = () => {
             <h1 
   class="text-3xl md:text-5xl font-bold mb-2 md:mb-4 text-green-600 hover:text-red-600 hover:shadow-xl shadow-lg transition-all duration-300"
 >
-  BHAWANA BADUA
+  DINESH BHATTA
 </h1>
 
                 <h3 className="text-xl md:text-2xl font-semibold text-green-300 mb-4">
@@ -40,7 +40,7 @@ const Hero = () => {
                     />
                 </h3>
                 <p className="text-gray-400 leading-7 mb-6">
-                i am a BBA student studying at Far-western university. i am passionate about my work and i am a self learner</p>
+                I am a dedicated hospitality professional with over a year of experience in the industry. I specialize in housekeeping and guest services, excelling in maintaining cleanliness, organization, and high service standards. With a Diploma in Hotel and Restaurant Operations (ongoing) from Fleming College and certifications in WHMIS, Smart Serve, and Food Safety, I bring strong attention to detail, adaptability, and a commitment to customer satisfaction. Fluent in English, Nepali, and Hindi, I am also learning French to enhance my communication skills in diverse environments.</p>
                 <button 
                     onClick={() => setIsModalOpen(true)} 
                     className="px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 hover:scale-105 transform transition"
@@ -60,7 +60,7 @@ const Hero = () => {
             <div className="flex flex-row md:flex-col items-center gap-5 text-gray-400">
                 {/* Social Links */}
                 <a 
-                    href="https://www.linkedin.com/badubhawana" 
+                    href="https://www.linkedin.com/Dineshbhatta" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="text-4xl hover:text-blue-600 cursor-pointer transition transform hover:scale-110"
@@ -68,7 +68,7 @@ const Hero = () => {
                     <TiSocialLinkedin />
                 </a>
                 <a 
-                    href="https://www.facebook.com/profile.php?id=61557563996202" 
+                    href="https://www.facebook.com/dinesh.bhatt.7146557" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="text-4xl hover:text-blue-500 cursor-pointer transition transform hover:scale-110"
@@ -76,7 +76,7 @@ const Hero = () => {
                     <TiSocialFacebookCircular />
                 </a>
                 <a 
-                    href="https://www.instagram.com" 
+                    href="https://www.instagram.com/dineshbhatta" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="text-3xl hover:text-pink-500 cursor-pointer transition transform hover:scale-110"
@@ -84,7 +84,7 @@ const Hero = () => {
                     <SlSocialInstagram />
                 </a>
                 <a 
-                    href="https://www.instagram.com/bhawana_badu?igsh=MTRydDl6cTcxb3VrdA==" 
+                    href="https://www.instagram.com/dinesh-bhatta?igsh=MTRydDl6cTcxb3VrdA==" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="text-3xl hover:text-blue-400 cursor-pointer transition transform hover:scale-110"
@@ -108,14 +108,16 @@ const Hero = () => {
                             </button>
                             <h2 className="text-2xl font-bold mb-4">About Me</h2>
                             <p className="text-gray-300 mb-6">
-                                I am a passionate BBA student. My core skills include:
+                                I am a passionate HM student. My core skills include:
                             </p>
                             <ul className="list-disc list-inside text-gray-400 mb-4">
-                            <li className="flex items-center gap-2 text-blue-600 text-2xl"><FaMicrosoft /> MS Word</li>
-    <li className="flex items-center gap-2 text-green-600 text-2xl"><FaMicrosoft /> MS Excel</li>
-    <li className="flex items-center gap-2 text-red-600 text-2xl"><FaMicrosoft /> MS PowerPoint</li>
-    <li className="flex items-center gap-2 text-yellow-500 text-2xl"><FaDigitalOcean /> Digital Marketing</li> 
+  <li className="flex items-center gap-2 text-blue-600 text-2xl"><FaBroom /> Cleaning & Sanitation Practices</li>
+  <li className="flex items-center gap-2 text-green-600 text-2xl"><FaClock /> Time Management & Multitasking</li>
+  <li className="flex items-center gap-2 text-red-600 text-2xl"><FaHandsHelping /> Customer Service Excellence</li>
+  <li className="flex items-center gap-2 text-yellow-500 text-2xl"><FaUserFriends /> Teamwork & Communication</li>
+  <li className="flex items-center gap-2 text-purple-600 text-2xl"><FaToolbox /> Safety & Hygiene Protocols</li>
 </ul>
+
 
 
                             <p className="text-gray-300">
@@ -127,7 +129,7 @@ const Hero = () => {
                             <img 
                                 className="hidden sm:block w-60 h-60 rounded-full border-4 border-gray-200 shadow-lg" 
                                 src={MyLogo} 
-                                alt="BHAWANA BADUA" 
+                                alt="DINESH BHATTA" 
                             />
                         </div>
                     </div>

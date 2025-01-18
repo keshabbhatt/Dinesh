@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import emailjs from 'emailjs-com';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -14,20 +13,18 @@ const Footer = () => {
       return;
     }
 
-    emailjs
-      .send(
-        'service_r17490i', // Replace with your EmailJS service ID
-        'template_wj3wob9', // Replace with your EmailJS template ID
-        { email }, // Data to send
-        'spodImOodF2BsinA-' // Replace with your EmailJS public key
-      )
-      .then(() => {
-        setMessage('Subscription successful! Thank you.');
-        setEmail('');
-      })
-      .catch(() => {
-        setMessage('Failed to subscribe. Please try again later.');
-      });
+    // Construct the WhatsApp message with the email
+    const whatsappMessage = `Hi, I would like to subscribe to the updates with the email: ${email}`;
+
+    // Create the WhatsApp link
+    const whatsappLink = `https://wa.me/9809435364?text=${encodeURIComponent(whatsappMessage)}`;
+
+    // Redirect to WhatsApp with the pre-filled message
+    window.location.href = whatsappLink;
+
+    // Reset the form and set a success message
+    setEmail('');
+    setMessage('Subscription successful! Thank you.');
   };
 
   return (
@@ -36,7 +33,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
           {/* Logo and Description */}
           <div className="mb-6 md:mb-0 md:w-1/3">
-            <h2 className="text-2xl font-bold mb-3">BHAWANA BADUA</h2>
+            <h2 className="text-2xl font-bold mb-3">DINESH BHATTA</h2>
             <p className="text-gray-400">
               passionate about work!
             </p>
@@ -54,7 +51,7 @@ const Footer = () => {
                   <a href="#about">About</a>
                 </li>
                 <li className="mb-2 hover:text-white cursor-pointer">
-                  <a href="#services">Hobbies</a>
+                  <a href="#services">Skills</a>
                 </li>
                 <li className="mb-2 hover:text-white cursor-pointer">
                   <a href="#contact">Contact</a>
@@ -97,17 +94,17 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="flex justify-center md:justify-between items-center mt-10">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} BHAWANA BADUA. All rights reserved.
+            &copy; {new Date().getFullYear()} DINESH BHATTA. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="https://www.facebook.com/profile.php?id=61557563996202" className="text-gray-400 hover:text-white">
+            <a href="https://www.facebook.com/dinesh.bhatt.7146557" className="text-gray-400 hover:text-white">
               <FaFacebookF />
             </a>
-            <a href="https://www.instagram.com/bhawana_badu?igsh=MTRydDl6cTcxb3VrdA==" className="text-gray-400 hover:text-white">
+            <a href="https://www.instagram.com/dineshbhatta?igsh=MTRydDl6cTcxb3VrdA==" className="text-gray-400 hover:text-white">
               <FaInstagram />
             </a>
             <a
-              href="https://www.linkedin.com/in/badubhawana"
+              href="https://www.linkedin.com/in/Dineshbhatta"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"

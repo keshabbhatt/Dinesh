@@ -17,13 +17,13 @@ const Navbar = () => {
     <img
         className='rounded-full w-10 md:w-12 border-2 border-blue-600'
         src={MyLogo}
-        alt="BHAWANA BADUA logo"
-        aria-label="BHAWANA BADUA logo"
+        alt="DINESH BHATTA logo"
+        aria-label="DINESH BHATTA logo"
     />
     <span className='font-poppins text-lg md:text-xl font-semibold text-green-300'>
                 <Typewriter
                     options={{
-                        strings: ['BHAWANA BADUA'],
+                        strings: ['DINESH BHATTA'],
                         autoStart: true,
                         loop: true,
                     }}
@@ -38,10 +38,10 @@ const Navbar = () => {
                         <a href="#home" className='hover:text-blue-600 hover:underline cursor-pointer text-xl font-bold'>Home</a>
                     </li>
                     <li>
-                        <a href="#internship" className='hover:text-blue-600 hover:underline cursor-pointer text-xl font-bold'>Internship</a>
+                        <a href="#Experience" className='hover:text-blue-600 hover:underline cursor-pointer text-xl font-bold'>Experience</a>
                     </li>
                     <li>
-                        <a href="#services" className='hover:text-blue-600 hover:underline cursor-pointer text-xl font-bold'>Hobbies</a>
+                        <a href="#services" className='hover:text-blue-600 hover:underline cursor-pointer text-xl font-bold'>Skills</a>
                     </li>
                     <li>
                         <a href="#contact" className='hover:text-blue-600 hover:underline cursor-pointer text-xl font-bold'>Contact</a>
@@ -71,10 +71,10 @@ const Navbar = () => {
                             <a href="#home" className='hover:text-gray-400 cursor-pointer' onClick={toggleMenu}>Home</a>
                         </li>
                         <li>
-                            <a href="#internship" className='hover:text-gray-400 cursor-pointer' onClick={toggleMenu}>Internship</a>
+                            <a href="#Experience" className='hover:text-gray-400 cursor-pointer' onClick={toggleMenu}>Experience</a>
                         </li>
                         <li>
-                            <a href="#services" className='hover:text-gray-400 cursor-pointer' onClick={toggleMenu}>Hobbies</a>
+                            <a href="#services" className='hover:text-gray-400 cursor-pointer' onClick={toggleMenu}>Skills</a>
                         </li>
                         <li>
                             <a href="#contact" className='hover:text-gray-400 cursor-pointer' onClick={toggleMenu}>Contact</a>
