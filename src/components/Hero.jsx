@@ -40,7 +40,7 @@ const Hero = () => {
                     />
                 </h3>
                 <p className="text-gray-400 leading-7 mb-6">
-                I am a dedicated hospitality professional with over a year of experience in the industry. I specialize in housekeeping and guest services, excelling in maintaining cleanliness, organization, and high service standards. With a Diploma in Hotel and Restaurant Operations (ongoing) from Fleming College and certifications in WHMIS, Smart Serve, and Food Safety, I bring strong attention to detail, adaptability, and a commitment to customer satisfaction. Fluent in English, Nepali, and Hindi, I am also learning French to enhance my communication skills in diverse environments.</p>
+                I am a dedicated hospitality professional with over a year of experience in the industry. I specialize in housekeeping and guest services, excelling in maintaining cleanliness, organization, and high service standards. With a Diploma in Hotel and Restaurant Operations (ongoing) from Fleming College and certifications in WHMIS, Smart Serve, and Food Safety, I bring strong attention to detail, adaptability, and a commitment to customer satisfaction. .</p>
                 <button 
                     onClick={() => setIsModalOpen(true)} 
                     className="px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 hover:scale-105 transform transition"
