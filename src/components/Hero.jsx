@@ -7,28 +7,23 @@ import { FaTwitter } from "react-icons/fa";
 import Typewriter from 'typewriter-effect';
 import { FaBroom, FaClock, FaHandsHelping, FaUserFriends, FaToolbox } from "react-icons/fa";
 
-
-
-
 const Hero = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
         <div className="flex flex-col md:flex-row justify-between items-center font-poppins gap-5 md:gap-20 px-5">
             {/* Left - Content */}
-            <div className="text-center md:text-left">
-            <h1 
-  class="text-3xl md:text-5xl font-bold mb-2 md:mb-4 text-green-600 hover:text-red-600 hover:shadow-xl shadow-lg transition-all duration-300"
->
-  DINESH BHATTA
-</h1>
+            <div className="text-center md:text-left mb-6 md:mb-0">
+                <h1 className="text-3xl md:text-5xl font-bold mb-2 md:mb-4 text-green-600 hover:text-red-600 hover:shadow-xl shadow-lg transition-all duration-300">
+                    DINESH BHATTA
+                </h1>
 
                 <h3 className="text-xl md:text-2xl font-semibold text-green-300 mb-4">
                     <Typewriter
                         options={{
                             strings: [
-                                'Bachelor in Business Administration',
-                                'Studying at Far-western university',
+                                'diploma in HM',
+                                'Studying at fleming college',
                                 'from kanchanpur,NEPAL'
                             ],
                             autoStart: true,
@@ -40,7 +35,8 @@ const Hero = () => {
                     />
                 </h3>
                 <p className="text-gray-400 leading-7 mb-6">
-                I am a dedicated hospitality professional with over a year of experience in the industry. I specialize in housekeeping and guest services, excelling in maintaining cleanliness, organization, and high service standards. With a Diploma in Hotel and Restaurant Operations (ongoing) from Fleming College and certifications in WHMIS, Smart Serve, and Food Safety, I bring strong attention to detail, adaptability, and a commitment to customer satisfaction. .</p>
+                    I am a dedicated hospitality professional with over a year of experience in the industry. I specialize in housekeeping and guest services, excelling in maintaining cleanliness, organization, and high service standards. With a Diploma in Hotel and Restaurant Operations (ongoing) from Fleming College and certifications in WHMIS, Smart Serve, and Food Safety, I bring strong attention to detail, adaptability, and a commitment to customer satisfaction.
+                </p>
                 <button 
                     onClick={() => setIsModalOpen(true)} 
                     className="px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 hover:scale-105 transform transition"
@@ -51,7 +47,7 @@ const Hero = () => {
 
             {/* Mid - Image */}
             <img 
-                className="w-60 h-60 rounded-full border-4 border-gray-200 shadow-lg" 
+                className="w-40 h-40 md:w-60 md:h-60 rounded-full border-4 border-gray-200 shadow-lg mb-6 md:mb-0" 
                 src={MyLogo} 
                 alt="Developer" 
             />
@@ -91,7 +87,6 @@ const Hero = () => {
                 >
                     <FaTwitter />
                 </a>
-                
             </div>
 
             {/* Modal */}
@@ -111,15 +106,12 @@ const Hero = () => {
                                 I am a passionate HM student. My core skills include:
                             </p>
                             <ul className="list-disc list-inside text-gray-400 mb-4">
-  <li className="flex items-center gap-2 text-blue-600 text-2xl"><FaBroom /> Cleaning & Sanitation Practices</li>
-  <li className="flex items-center gap-2 text-green-600 text-2xl"><FaClock /> Time Management & Multitasking</li>
-  <li className="flex items-center gap-2 text-red-600 text-2xl"><FaHandsHelping /> Customer Service Excellence</li>
-  <li className="flex items-center gap-2 text-yellow-500 text-2xl"><FaUserFriends /> Teamwork & Communication</li>
-  <li className="flex items-center gap-2 text-purple-600 text-2xl"><FaToolbox /> Safety & Hygiene Protocols</li>
-</ul>
-
-
-
+                                <li className="flex items-center gap-2 text-blue-600 text-2xl"><FaBroom /> Cleaning & Sanitation Practices</li>
+                                <li className="flex items-center gap-2 text-green-600 text-2xl"><FaClock /> Time Management & Multitasking</li>
+                                <li className="flex items-center gap-2 text-red-600 text-2xl"><FaHandsHelping /> Customer Service Excellence</li>
+                                <li className="flex items-center gap-2 text-yellow-500 text-2xl"><FaUserFriends /> Teamwork & Communication</li>
+                                <li className="flex items-center gap-2 text-purple-600 text-2xl"><FaToolbox /> Safety & Hygiene Protocols</li>
+                            </ul>
                             <p className="text-gray-300">
                                 <strong>Education:</strong> Self-learning through YouTube and online resources.
                             </p>
@@ -139,4 +131,4 @@ const Hero = () => {
     );
 }
 
-export default Hero; 
+export default Hero;
