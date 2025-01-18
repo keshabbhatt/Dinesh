@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import HolidayImage from "../assets/images/holiday.jpg"; // Add correct image path
-import MejorLoungeImage from "../assets/images/mejorlounge.jpg"; // Add correct image path
-import FlemingImage from "../assets/images/fleming.jpg";
-import AishwaryaImage from "../assets/images/aishwarya.jpg";
+import HolidayImage from "../assets/images/holiday.jpg"; // Correct image path
+import MejorLoungeImage from "../assets/images/mejorlounge.jpg"; // Correct image path
+import FlemingImage from "../assets/images/fleming.jpg"; // Correct image path
+import AishwaryaImage from "../assets/images/aishwarya.jpg"; // Correct image path
 import AOS from 'aos';  // Importing AOS
 import 'aos/dist/aos.css'; // Importing AOS styles
 
