@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import HolidayInnImage from "../assets/images/holidayinn.jpg"; // Add correct image path
+import HolidayImage from "../assets/images/holiday.jpg"; // Add correct image path
 import MejorLoungeImage from "../assets/images/mejorlounge.jpg"; // Add correct image path
 import FlemingImage from "../assets/images/fleming.jpg";
 import AishwaryaImage from "../assets/images/aishwarya.jpg";
@@ -20,7 +20,7 @@ const Experience = () => {
     {
       "title": "Holiday Inn Peterborough-Waterfront",
       "description": "Room attendant responsibilities included ensuring guest comfort through daily bed linen and towel changes, thorough cleaning of rooms and bathrooms, and maintaining cleanliness standards as per brand requirements.",
-      "image": HolidayInnImage,
+      "image": HolidayImage,
       "link": "#",
       "technologies": [
         "Room Attendant", 
