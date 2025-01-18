@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import HolidayImage from "../assets/images/holiday.jpg"; // Correct image path
-import MejorLoungeImage from "../assets/images/mejorlounge.jpg"; // Correct image path
-import FlemingImage from "../assets/images/fleming.jpg"; // Correct image path
-import AishwaryaImage from "../assets/images/aishwarya.jpg"; // Correct image path
+import Image1 from "../assets/images/image1.jpg";// Correct image path
+import Image2 from "../assets/images/image2.jpg"; // Correct image path
+import Image3 from "../assets/images/Image3.jpg"; // Correct image path
+import Image4 from "../assets/images/image4.jpg"; // Correct image path
 import AOS from 'aos';  // Importing AOS
 import 'aos/dist/aos.css'; // Importing AOS styles
 
@@ -20,7 +20,7 @@ const Experience = () => {
     {
       "title": "Holiday Inn Peterborough-Waterfront",
       "description": "Room attendant responsibilities included ensuring guest comfort through daily bed linen and towel changes, thorough cleaning of rooms and bathrooms, and maintaining cleanliness standards as per brand requirements.",
-      "image": HolidayImage,
+      "image": Image1,
       "link": "#",
       "technologies": [
         "Room Attendant", 
@@ -36,7 +36,7 @@ const Experience = () => {
     {
       "title": "Mejor Lounge",
       "description": "Server duties included providing outstanding dining experiences, ensuring timely and accurate service, maintaining a clean dining area, and assisting guests with menu recommendations.",
-      "image": MejorLoungeImage,
+      "image": Image2,
       "link": "#",
       "technologies": [
         "Server", 
@@ -52,7 +52,7 @@ const Experience = () => {
     {
       "title": "Fleming College, Sutherland Campus",
       "description": "Currently pursuing a Diploma in Hotel and Restaurant Operations. The program focuses on developing skills in hospitality management, customer service, and operational procedures.",
-      "image": FlemingImage, // You can replace this with an actual image for the college
+      "image": Image3, // You can replace this with an actual image for the college
       "link": "#",
       "technologies": [
         "Hotel Management", 
@@ -64,7 +64,7 @@ const Experience = () => {
     {
       "title": "Aishwarya Vidhya Niketan",
       "description": "Completed High School with a focus on Hotel Management, gaining foundational knowledge in the hospitality industry.",
-      "image": AishwaryaImage, // Replace with an image for your high school
+      "image": Image4, // Replace with an image for your high school
       "link": "#",
       "technologies": [
         "Hotel Management", 
